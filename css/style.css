@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: darkslategray;
+    color: white;
+}
+
+.hero
+{
+    height: 100vh;
+    width: 100%;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav ul li a:hover
+{
+    color: #ea1538;
+    transition: .3s;
+}
+
+nav img 
+{
+    width: 280px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.detail
+{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h1 
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.detail .name
+{
+    color: #ea1538;
+    font-weight: bold;
+}
+
+.detail p 
+{
+    line-height: 52px;
+    font-size: 20px;
+}
+
+.images
+{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img 
+{
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape 
+{
+    bottom: 40px;
+}
+
+.images:hover .girl
+{
+    left: 45%;
+}
+
+.about 
+{
+
+    padding-top: 30px;
+
+}
+
+.about .about-text 
+{
+    padding-top: 50px;
+    padding-left: 10%;
+    font-size: 20px;
+    line-height: 52px;
+}
+
+.about .flex-info 
+{
+    padding: 150px;
+    display: flex; 
+    padding-top: 55px;
+}
+
+.about .flex-info .flex 
+{
+    font-size: 25px;
+    line-height: 62px;
+    color: black;
+    font-weight: 500;
+    box-shadow: 2px 2px 5px 5px #888888;
+}
+
+
+.about .flex-info .flex .about-info
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.about .flex-info .flex h2
+{
+    padding-left: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.about .flex-info .flex p 
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.about .flex-info .skills 
+{
+
+    font-size: 25px;
+    line-height: 62px;
+    box-shadow: 2px 2px 5px 5px #888888;
+}
+.about .flex-info .skills h2
+{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.about .container
+{
+    display: flex;
+}
+
+.about .flex-info .skills
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+    line-height: 62px;
+    color: black;
+    font-weight: 400;
+}
+
+.about .flex-info .skills .about-info
+{
+    
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.about .flex-info .skills .language
+{
+   
+    padding-top: 55px;
+}
+
+.about .flex-info .skills .language p 
+{
+    padding-left: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about .flex-info .skills .language span
+{
+    color: white;
+}
